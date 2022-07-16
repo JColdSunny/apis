@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package education.common;
+
+message Course {
+  uint32 course_id = 1;
+  string name = 2;
+}
+
+message Tag {
+  uint32 tag_id = 1;
+  string name = 2;
+}
+
+message Lesson {
+  uint32 lesson_id = 1;
+  string name = 2;
+}
