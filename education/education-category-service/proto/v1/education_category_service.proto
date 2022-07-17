@@ -4,7 +4,7 @@ import "education/common/proto/education_common.proto";
 
 option go_package = "jcs.education.com/category/service/proto/v1;educationcategoryservice;";
 option java_package = "com.jcs.education.category.service.proto.v1";
-option java_outer_classname = "EducationCategoryService";
+option java_outer_classname = "EducationCategoryServiceRpc";
 option java_multiple_files = true;
 
 service EducationCategoryService {
