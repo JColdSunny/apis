@@ -4,6 +4,7 @@ import "education/common/proto/education_common.proto";
 
 option go_package = "jcs.education.com/tag/service/proto/v1;educationtagservice;";
 option java_package = "com.jcs.education.tag.service.proto.v1";
+option java_outer_classname = "EducationTagService";
 option java_multiple_files = true;
 
 service EducationTagService {
