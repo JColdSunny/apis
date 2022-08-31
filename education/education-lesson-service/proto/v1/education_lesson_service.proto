@@ -10,7 +10,7 @@ service EducationLessonService {
 }
 
 message GetLessonsRequest {
-  uint32 course_id = 1;
+  uint32 course_unit_id = 1;
 }
 
 message GetLessonsResponse {

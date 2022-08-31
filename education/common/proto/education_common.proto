@@ -24,4 +24,5 @@ message CourseUnit {
 message Lesson {
   uint32 lesson_id = 1;
   string name = 2;
+  uint32 order = 3;
 }
