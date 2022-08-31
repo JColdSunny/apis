@@ -2,7 +2,6 @@ syntax = "proto3";
 
 package education.common;
 
-option go_package = "jcs.education.com/common/proto;educationcommon;";
 option java_package = "com.jcs.education.common.proto";
 option java_multiple_files = true;
 
@@ -15,6 +14,11 @@ message Course {
 message Tag {
   uint32 tag_id = 1;
   string name = 2;
+}
+
+message CourseUnit {
+  int32 order = 1;
+  repeated education.common.Lesson lessons = 2;
 }
 
 message Lesson {
