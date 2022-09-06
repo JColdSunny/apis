@@ -17,12 +17,10 @@ message Tag {
 }
 
 message CourseUnit {
-  int32 order = 1;
   repeated education.common.Lesson lessons = 2;
 }
 
 message Lesson {
   uint32 lesson_id = 1;
   string name = 2;
-  uint32 order = 3;
 }
